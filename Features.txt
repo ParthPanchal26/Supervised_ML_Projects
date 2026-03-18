@@ -1,0 +1,48 @@
+1) Pclass - has 3 values - categorical
+1 -> first class
+2 -> second class
+3 -> third class
+
+people from 1st and 3rd class survived more than 2nd class. 1st highest. 3rd highest for dead people.
+
+2) Sex - has 2 values - categorical
+male
+female
+
+female survived more than male
+male dead more than female
+
+3) SibSp - represents siblings and spouse(s) - numeric
+people with fewer or none sibsp survived more
+people with 0 SibSp have died more also
+
+4) Age - numeric
+people between 15-45 dead and survived more,
+but dead number is more than survival
+
+5) Parch - represent parent child(s) - numeric
+people with fewer or none Parch survived more
+people with 0 Parch have died more also
+
+6) TicketGroupSize - Feature engineered - numeric
+people may have travelled togather and may have survived
+
+7) Fare - numeric
+amount charged for travelling
+
+8) HasCabin - feature engineered - categorical
+0 - no cabin
+1 - has cabin
+
+people with cabin survived more
+
+9) Deck - feature engineered - categorical
+unknown - for rows which did not had deck info
+other represent deck - level of floor and how far is from lifeboats
+
+unknown - people survived and died more
+
+10) Embarked - categorical
+represent port from where passengers onboard ship
+s - people survived and died more
+c - q
